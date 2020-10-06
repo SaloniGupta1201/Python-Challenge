@@ -6,6 +6,13 @@ pybankdata_csv = os.path.join("PyBank",'Resources', 'Unit 3 - Python_Homework_In
 # Path to print the results to analysis folder
 pybankdata_txt = os.path.join("PyBank",'analysis', 'pybank_analysis.txt')
 
+# Initialize your values to variables with 0
+month = 0
+total = 0
+greatest_profit = 0
+greatest_loss = 0
+net_change_list = []
+
 # Read in the CSV file
 
 with open(pybankdata_csv, 'r') as csvfile:
@@ -14,20 +21,13 @@ with open(pybankdata_csv, 'r') as csvfile:
 
     csvreader = csv.reader(csvfile, delimiter = ',')
     header = next(csvreader)
+    # Read the header row first (skip this step if there is no header)
     first_row = next(csvreader)
-
-    # Initialize your values to variables with 0
-
-    month = 0
-    total = 0
-    greatest_profit = 0
-    greatest_loss = 0
-    net_change_list = []
     previous_row = int(first_row[1])
     month += 1
     total += int(first_row[1])
 
-    # Loop through the data
+    # Read each row of data after the header
 
     for row in csvreader:
         month += 1
