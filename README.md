@@ -7,6 +7,7 @@ In this work, I created python scripts for analyzing the financial records of Py
 
 PyBank
 Revenue
+----------------
 
 In this work, I created a Python script for analyzing the financial records of PyBank. With a set of financial data called budget_data.csv, the dataset is composed of two columns: Date and Profit/Losses.
 
@@ -24,8 +25,6 @@ The greatest decrease in losses (date and amount) over the entire period
 
 Financial_Analysis
 
-Financial Analysis
-----------------------
 Total Months: 86
 Total: $38382578
 Average  Change: $-2315.12
@@ -34,7 +33,7 @@ Greatest Decrease in Profits: Sep-2013 ($-2196167)
 
 PyPoll
 Vote_Counting
-
+--------------------
 In this work, I created a Python script for analyzing the votes of election result of PyPoll.
 
 With a set of poll data called election_data.csv, the dataset is composed of three columns: Voter ID, County, and Candidate.
@@ -52,7 +51,7 @@ The total number of votes each candidate won
 The winner of the election based on popular vote.
 
 Election_Results
-----------------------
+
 Total Votes: 3521001
 Khan: 63.000% (2218231)
 Correy: 20.000% (704200)
