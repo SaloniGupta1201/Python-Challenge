@@ -13,8 +13,10 @@ with open(pybankdata_csv, 'r') as csvfile:
 
     #split the data on commas
     csvreader = csv.reader(csvfile, delimiter = ',')
+
     #skip the header
     header = next(csvreader)
+
     #point to first row
     first_row = next(csvreader)
 
@@ -24,6 +26,7 @@ with open(pybankdata_csv, 'r') as csvfile:
     greatest_profit = 0
     greatest_loss = 0
     net_change_list = []
+
     #initialize previous_row with first row record in profits/losses
     previous_row = int(first_row[1])
     month += 1
@@ -42,10 +45,12 @@ with open(pybankdata_csv, 'r') as csvfile:
         net_change_list = net_change_list + [net_change]
         #average formula
         average = round(sum(net_change_list)/len(net_change_list),2)
+
         #calculate the greatest increase in profits (net change amount and month/date) over the entire period
         if net_change > int(greatest_profit):
             greatest_profit = net_change
             highest_month = str(row[0])
+            
         #calculate the greatest decrease in losses (net change amount and month/date) over the entire period
         if net_change < int(greatest_loss):
             greatest_loss = net_change
