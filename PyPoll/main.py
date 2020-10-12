@@ -41,12 +41,16 @@ with open(pypolldata_csv,newline="") as csvfile:
         else:
             candidates_list.append(candidate)
             vote_counts_list.append(1)
+
 #create percentages list to store value of each candidate percentage of votes
 percentages = []
-#initialize max votes with values in vote counts list
+
+#initialize max votes with value in vote counts list
 max_votes = vote_counts_list[0]
+
 #to store the position/index of max vote count holder
 max_index = 0
+
 #find percentage of vote for each candidate and the winner
 for count in range(len(candidates_list)):
     vote_percentage = format(vote_counts_list[count]/num_votes*100,'.3f')
