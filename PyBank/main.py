@@ -5,7 +5,7 @@ Date  Profit/Losses"""
 import os
 import csv
 
-# Path to collect data from the Resources folder
+# Path to read data from the Resources folder
 pybankdata_csv = os.path.join("PyBank",'Resources', 'Unit 3 - Python_Homework_Instructions_PyBank_Resources_budget_data.csv')
 
 # Read in the CSV file
@@ -15,7 +15,7 @@ with open(pybankdata_csv, 'r') as csvfile:
     csvreader = csv.reader(csvfile, delimiter = ',')
     #skip the header
     header = next(csvreader)
-    #point to First row
+    #point to first row
     first_row = next(csvreader)
 
     # Initialize variables
@@ -24,6 +24,7 @@ with open(pybankdata_csv, 'r') as csvfile:
     greatest_profit = 0
     greatest_loss = 0
     net_change_list = []
+    #initialize previous_row with first row record in profits/losses
     previous_row = int(first_row[1])
     month += 1
     total += int(first_row[1])
@@ -32,6 +33,7 @@ with open(pybankdata_csv, 'r') as csvfile:
     for row in csvreader:
         #add to calculate total number of months
         month += 1
+        #add to calculate profits/losses
         total += int(row[1])
         #calculate net change by subtracting next row data with the previous one for all profits/losses over the entire period
         #and add them in the net change list
