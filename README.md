@@ -25,7 +25,7 @@ The greatest decrease in losses (date and amount) over the entire period
 Financial_Analysis
 
 Financial Analysis
-
+----------------------
 Total Months: 86
 Total: $38382578
 Average  Change: $-2315.12
@@ -52,7 +52,7 @@ The total number of votes each candidate won
 The winner of the election based on popular vote.
 
 Election_Results
-
+----------------------
 Total Votes: 3521001
 Khan: 63.000% (2218231)
 Correy: 20.000% (704200)
