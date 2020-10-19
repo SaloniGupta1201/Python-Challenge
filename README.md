@@ -1,8 +1,12 @@
 # Python-Challenge
+**Submitted By:** Saloni Gupta\
+_Date_: october, 12th, 2020\
+Python Homework - **Py Me Up, Charlie**
+
 PyBank and PyPoll
 PyBank: Analysis on monthly Profit/Loss data
 PyPoll: Analysis on election result
-Background
+Background\
 In this work, I created python scripts for analyzing the financial records of PyBank and the election result of PyPoll.
 
 PyBank
@@ -25,10 +29,10 @@ The greatest decrease in losses (date and amount) over the entire period
 
 Financial_Analysis
 
-Total Months: 86
-Total: $38382578
-Average  Change: $-2315.12
-Greatest Increase in Profits: Feb-2012 ($1926159)
+Total Months: 86 \
+Total: $38382578 \
+Average  Change: $-2315.12 \
+Greatest Increase in Profits: Feb-2012 ($1926159)\
 Greatest Decrease in Profits: Sep-2013 ($-2196167)
 
 PyPoll
@@ -52,9 +56,9 @@ The winner of the election based on popular vote.
 
 Election_Results
 
-Total Votes: 3521001
-Khan: 63.000% (2218231)
-Correy: 20.000% (704200)
-Li: 14.000% (492940)
-O'Tooley: 3.000% (105630)
-Winner: Khan
+Total Votes: 3521001\
+Khan: 63.000% (2218231)\
+Correy: 20.000% (704200)\
+Li: 14.000% (492940)\
+O'Tooley: 3.000% (105630)\
+Winner: Khan\
