@@ -20,16 +20,13 @@ It requires python to be installed. Python 3.6.2 was used during development. It
 
 ## Running the Code
 to run enter the following into the command line: 
-`$ python budget_analyis.py`
+`$ python pybank main.py`
 
 ## Results
-Results can be seen in pybank_results_summary_1.txt and pybank_results_summary_2.txt. <br/>
-The results for each file can be seen in <br/>
-
-budget_data_2.csv: <br/>
+Results can be seen in PyBank/analysis folder pybank_analysis.txt <br/>
 
 Financial_Analysis
-*************************
+
 Total Months: 86 <br/>
 Total: $38382578 <br/>
 Average  Change: $-2315.12 <br/>
@@ -39,12 +36,11 @@ Greatest Decrease in Profits: Sep-2013 ($-2196167)
 PyPoll
 Vote_Counting
 --------------------
-************************
-In this work, I created a Python script for analyzing the votes of election result of PyPoll.
+In this work, I created a Python script for analyzing the votes of election result of PyPoll. <br/>
 
-With a set of poll data called election_data.csv, the dataset is composed of three columns: Voter ID, County, and Candidate.
+With a set of poll data called election_data.csv, the dataset is composed of three columns: Voter ID, County, and Candidate. <br/>
 
-Create a Python script that analyzes the votes and calculates each of the following:
+Create a Python script that analyzes the votes and calculates each of the following: <br/>
 
 -The total number of votes cast
 
@@ -57,13 +53,11 @@ Create a Python script that analyzes the votes and calculates each of the follow
 -The winner of the election based on popular vote.
 
 Election_Results
-*************************
-Total Votes: 3521001\
-*************************
-Khan: 63.000% (2218231)\
-Correy: 20.000% (704200)\
-Li: 14.000% (492940)\
-O'Tooley: 3.000% (105630)\
-************************
+Total Votes: 3521001 <br/>
+Khan: 63.000% (2218231) <br/>
+Correy: 20.000% (704200) <br/>
+Li: 14.000% (492940) <br/>
+O'Tooley: 3.000% (105630) <br/>
+
 Winner: Khan
-************************
+
