@@ -9,30 +9,31 @@ PyPoll: Analysis on election result
 Background\
 In this work, I created python scripts for analyzing the financial records of PyBank and the election result of PyPoll.
 
-PyBank
-Revenue
-----------------
 
-In this work, I created a Python script for analyzing the financial records of PyBank. With a set of financial data called budget_data.csv, the dataset is composed of two columns: Date and Profit/Losses.
+# Pybank
 
-Create a Python script that analyzes the records to calculate each of the following:
+## Purpose
+This python program takes a list of financial records included in budget_data_1.csv and budget_data_2.csv and determines some summary statistics. Each file contains two columns: Date and Revenue. It returns a results file that includes the number of months included, the net revenue, the average change in revenue between months, the date and amount of the greatest increase in revenue, and the date and amount of the greatest decrease in revenue.
 
--The total number of months included in the dataset
+## Requirements
+It requires python to be installed. Python 3.6.2 was used during development. It utilizes the os, and csv libraries to read the data file and to write the results file. The data is included in the raw_data file contained within the repository.
 
--The net total amount of "Profit/Losses" over the entire period
+## Running the Code
+to run enter the following into the command line: 
+`$ python budget_analyis.py`
 
--The average of the changes in "Profit/Losses" over the entire period
+## Results
+Results can be seen in pybank_results_summary_1.txt and pybank_results_summary_2.txt. <br/>
+The results for each file can be seen in <br/>
 
--The greatest increase in profits (date and amount) over the entire period
-
--The greatest decrease in losses (date and amount) over the entire period
+budget_data_2.csv: <br/>
 
 Financial_Analysis
 *************************
-Total Months: 86 \
-Total: $38382578 \
-Average  Change: $-2315.12 \
-Greatest Increase in Profits: Feb-2012 ($1926159)\
+Total Months: 86 <br/>
+Total: $38382578 <br/>
+Average  Change: $-2315.12 <br/>
+Greatest Increase in Profits: Feb-2012 ($1926159) <br/>
 Greatest Decrease in Profits: Sep-2013 ($-2196167)
 
 PyPoll
