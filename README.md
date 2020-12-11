@@ -4,11 +4,8 @@ _Date_: october, 12th, 2020\
 Python Homework - **Py Me Up, Charlie**
 
 PyBank and PyPoll
-PyBank: Analysis on monthly Profit/Loss data
-PyPoll: Analysis on election result
-Background\
-In this work, I created python scripts for analyzing the financial records of PyBank and the election result of PyPoll.
-
+PyBank: Created python scripts for analyzing the financial records of PyBank like monthly Profit/Loss data.</br>
+PyPoll: created python scripts for analyzing the election result of PyPoll.</br>
 
 # Pybank
 
