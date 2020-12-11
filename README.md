@@ -5,7 +5,7 @@ Python Homework - **Py Me Up, Charlie**
 
 PyBank and PyPoll</br>
 PyBank: Created python scripts for analyzing the financial records of PyBank like monthly Profit/Loss data.</br>
-PyPoll: created python scripts for analyzing the election result of PyPoll.</br>
+PyPoll: Created python scripts for analyzing the election result of PyPoll.</br>
 
 # Pybank
 
