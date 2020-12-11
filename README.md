@@ -3,7 +3,7 @@
 _Date_: october, 12th, 2020\
 Python Homework - **Py Me Up, Charlie**
 
-PyBank and PyPoll
+PyBank and PyPoll</br>
 PyBank: Created python scripts for analyzing the financial records of PyBank like monthly Profit/Loss data.</br>
 PyPoll: created python scripts for analyzing the election result of PyPoll.</br>
 
